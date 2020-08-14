@@ -1,0 +1,46 @@
+{
+	"author" : "Michele Zaccagnini",
+	"authors" : [  ],
+	"description" : "Create sequencer frequency oscillations around a fixed frequency. The overall robustness and sample accuracy of the sequencer is left intact while the sequencer is allowed a locally irregular behavior",
+    "displayname" : "",
+    "version" : "0.1",
+	"extends" : "",
+	"extensible" : 0,
+	"homepatcher" : "NLS-launch.maxpat",
+	"max_version_max" : "none",
+	"max_version_min" : "7.1",
+	"name" : "Nonlinear Sequencer",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "none"
+		}
+,
+		"windows" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "none"
+		}
+
+	}
+,
+	"package_extra" : 	{
+		"reverse_domain" : "com.cycling74",
+		"copyright" : "Copyright (c) 2020 Michele Zaccagnini"
+	}
+,
+	"tags" : ["sequencer","rhythmic","algorithmic","composition","signal-accurate"  ],
+	"version" : "1.0.2",
+	"website" : "https://michelezaccagnini.blog/",
+	"filelist" : 	{
+		"examples" : [  ],
+		"externals" : [  ],
+		"patchers" : ["distance_from_pulse.maxpat", "fluctuating_example_cloud.maxpat", "fluctuating_example_playback.maxpat", "fluctuating_sequencer_start.maxpat" ],
+		"help" : [  ],
+		"docs" : [ "Nonlinear_Sequencing.pdf"  ],
+		"code" : [  ],
+		"extras" : [ "NLS-launch.maxpat" ]
+	}
+,
+	"c74install" : 1,
+	"installdate" : 3621462776
+}
