@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1822.0, 116.0, 541.0, 316.0 ],
+		"rect" : [ -1822.0, 116.0, 644.0, 359.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,30 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 498.459574818611145, 367.074444651603699, 70.0, 22.0 ],
-					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.947368502616882, 337.194454167655977, 70.0, 22.0 ],
-					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontsize" : 18.0,
 					"id" : "obj-17",
@@ -124,7 +100,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -147,10 +122,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 20.0, 50.0, 361.978013277053833, 216.0 ],
+									"patching_rect" : [ 20.0, 50.0, 363.0, 216.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 13,
-									"presentation_rect" : [ 59.5, 145.0, 360.0, 216.0 ],
+									"presentation_rect" : [ 59.5, 145.0, 363.0, 216.0 ],
 									"text" : "Ideally you should read the paper first, it's not too long and it will make everything clearer. The helpfiles for the objects should nonetheless give you a fairly good idea of what is going on. The patches are simple examples of how one could use NLS. I am adding new example patches and objects in the near furture. Feel free to reach out to me for any comment, bug report suggestions and cash donations.\nIf you end up doing sometyhing with this, please let me know!\n\nMichele\nCharlottesville, VA 08/14/2020",
 									"varname" : "not_a_bot"
 								}
@@ -189,7 +164,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ -49.0, 262.0, 678.0, 809.0 ],
+										"rect" : [ -31.0, 226.0, 678.0, 809.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -217,7 +192,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-16",
@@ -309,7 +283,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 376.0, 717.0, 224.0, 117.0 ],
+													"patching_rect" : [ 376.0, 717.0, 227.0, 117.0 ],
 													"text" : "void what_is_nls(you){ if(read_the_paper) { return awesome_job ; } else if(look_at_objects_helpfiles) { return should_be_enough_to_understand ; } else if(just_look_at_the_patches) { return I_guess_you_can_do_that ; } else return you_are_in_the_wrong_place ; }"
 												}
 
@@ -755,22 +729,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-20", 0 ]
 				}
 
 			}
