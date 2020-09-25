@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1570.0, 77.0, 1852.0, 969.0 ],
+		"rect" : [ 1702.0, 417.0, 780.0, 580.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-11",
@@ -44,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 68.197375655174255, 271.787671089172363, 29.5, 22.0 ],
+					"patching_rect" : [ 25.570102423429489, 264.787671089172363, 29.5, 22.0 ],
 					"text" : "!/ 1."
 				}
 
@@ -80,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 67.662616312503815, 191.573769688606262, 41.0, 22.0 ],
+					"patching_rect" : [ 25.035343080759048, 184.573769688606262, 41.0, 22.0 ],
 					"text" : "pak f f"
 				}
 
@@ -92,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 67.662616312503815, 240.236869871616364, 29.5, 22.0 ],
+					"patching_rect" : [ 25.035343080759048, 233.236869871616364, 29.5, 22.0 ],
 					"text" : "!- 0."
 				}
 
@@ -116,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 596.0, 206.0, 34.0, 22.0 ],
+					"patching_rect" : [ 415.0, 254.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -128,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 655.0, 137.0, 34.0, 22.0 ],
+					"patching_rect" : [ 474.0, 185.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -140,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 596.0, 167.0, 29.5, 22.0 ],
+					"patching_rect" : [ 415.0, 215.0, 29.5, 22.0 ],
 					"text" : "< 0."
 				}
 
@@ -152,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 596.0, 236.86384569588472, 105.0, 22.0 ],
+					"patching_rect" : [ 415.0, 284.86384569588472, 105.0, 22.0 ],
 					"text" : "variable_freq < 0 !"
 				}
 
@@ -164,7 +165,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 665.5, 44.743315398693085, 33.0, 22.0 ],
+					"patching_rect" : [ 484.5, 92.743315398693085, 33.0, 22.0 ],
 					"text" : "* 0.5"
 				}
 
@@ -176,7 +177,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 655.0, 80.863841106327072, 29.5, 22.0 ],
+					"patching_rect" : [ 474.0, 128.863841106327072, 29.5, 22.0 ],
 					"text" : "join"
 				}
 
@@ -188,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 655.0, 108.628540803821579, 29.5, 22.0 ],
+					"patching_rect" : [ 474.0, 156.628540803821579, 29.5, 22.0 ],
 					"text" : "< 0."
 				}
 
@@ -201,7 +202,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 655.0, 167.0, 290.0, 22.0 ],
+					"patching_rect" : [ 474.0, 215.0, 290.0, 22.0 ],
 					"text" : "variable_freq < 1/2 target_freq: no make-up possible!"
 				}
 
@@ -212,7 +213,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 655.0, 193.0, 148.0, 22.0 ],
+					"patching_rect" : [ 474.0, 241.0, 148.0, 22.0 ],
 					"text" : "print MIC.BEAT_MAKEUP"
 				}
 
@@ -224,7 +225,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.764716804027557, 17.743315398693085, 150.0, 34.0 ],
+					"patching_rect" : [ 456.764716804027557, 494.743315398693085, 150.0, 34.0 ],
 					"text" : "by Michele Zaccagnini 2019"
 				}
 
@@ -255,7 +256,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -268,7 +269,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -281,11 +282,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.037437734210926, 455.133677423000336, 30.0, 30.0 ]
+					"patching_rect" : [ 25.570102423429489, 342.133677423000336, 30.0, 30.0 ]
 				}
 
 			}
@@ -320,7 +321,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.935120195150375, 58.787671089172363, 233.0, 434.0 ],
+					"patching_rect" : [ 168.935120195150375, 117.787671089172363, 233.0, 434.0 ],
 					"text" : "given a Ft target frequency (e.g. regular beat) and a Fv variable frequency, calculate the Fn frequency that \"makes up\" the difference in time between Ft and  Fv\n\nfr = target freq (known)\nf = variable freq (known)\nf' = make-up frequency (unknown)\n\ntr = 1/fr = target time \nt = 1/f = variable time passed\nt' = 1/f' = make-up time\n\nt + t' = 2tr\n\nt' = 2tr  - t\n\nf' = 2*(1/fr) - 1/f \n\n\nNOTE: \nThere are two conditions for this to work properly, i.e.\nfor the make-up frequncy to actully make up the time\n\nf >  fr / 2\n\nfr > 0\n"
 				}
 
@@ -485,7 +486,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
